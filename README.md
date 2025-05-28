@@ -95,6 +95,7 @@ sensornewgsm.php?client=iot2k24145&s1=MOISTURE_LEVEL_LOW&sms=YES&msg=...
 You can connect this to a GSM module or IoT server that listens for such formatted messages.
 
 **🛠 Setup Notes**
+
 Make sure to adjust the analog read range mapping for your water level sensor depending on your tank’s real-world min and max readings.
 
 Fine-tune the obstacle avoidance timings if your robot’s geometry is different.
@@ -102,6 +103,7 @@ Fine-tune the obstacle avoidance timings if your robot’s geometry is different
 Set soilThreshold and waterThreshold based on calibration.
 
 **🚀 Future Improvements**
+
 
 Add GPS/GNSS for open field coverage.
 
